@@ -8,6 +8,6 @@ class MyweatherappApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// Check if the context loads successfully
 	}
-
 }
