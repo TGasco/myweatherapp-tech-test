@@ -17,11 +17,11 @@ MyWeather App Tech Test is a simple weather application built using Spring Boot 
 
 ### Configuration
 The application uses the `application.properties` file to store configuration properties. The following properties are available:
-weather.visualcrossing.url - The base URL for the Visual Crossing Weather API (this should not be changed unless the API URL changes)
-weather.visualcrossing.key - The API key for the Visual Crossing Weather API (this should be set to your API key)
+- weather.visualcrossing.url - The base URL for the Visual Crossing Weather API (this should not be changed unless the API URL changes)
+- weather.visualcrossing.key - The API key for the Visual Crossing Weather API (this should be set to your API key)
                            - By default this looks for the key in the environment variable `WEATHER_VISUALCROSSING_KEY`
-weather.visualcrossing.unitGroup - The unit group to use for the weather forecast data (Options: us, metric, uk [default: metric])
-weather.visualcrossing.contentType - The content type to use for the weather forecast data (Options: json, csv [default: json])
+- weather.visualcrossing.unitGroup - The unit group to use for the weather forecast data (Options: us, metric, uk [default: metric])
+- weather.visualcrossing.contentType - The content type to use for the weather forecast data (Options: json, csv [default: json])
 
 ## Installation
 1. Clone the repository
